@@ -1,0 +1,107 @@
+.hero-banner .banner-content h1 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 90px;
+}
+
+/* .hero-banner {
+  background-color: #d5e5f4;
+} */
+
+/* .hero-banner1 {
+  background-color: #f8f8f8;
+} */
+
+h5 {
+  color: #0959a2;
+}
+.banner {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* color: black; */
+  /* background-color: #070b3b; */
+}
+.col .mb-3 {
+  color: black;
+}
+.nav-item a {
+  font-family: Georgia;
+  /* color: rgb(27, 27, 30); */
+}
+#button {
+  position: relative;
+  transition: 0.4s;
+}
+#button:hover {
+  background: var(--clr);
+  letter-spacing: 1.2px;
+  box-shadow: 0 0 35px var(--clr);
+}
+/* #rainbow a {
+  color: black;
+} */
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item:hover > a {
+  color: blue;
+}
+
+.dropdown-menu {
+  display: none;
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.working-card {
+  padding: 20px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.working-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+}
+.icon-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  /* color: #888; */
+}
+#rainbow.nav.flex-column .nav-link:hover {
+  background-color: #007bff;
+  /* color: black; */
+}
+
+ul.list-unstyled li {
+  margin-bottom: 15px;
+}
+
+ul.list-unstyled a {
+  text-decoration: none;
+}
+
+ul.list-unstyled a:hover {
+  background-color: #0959a2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.list-unstyled img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+/* new responsive  */
